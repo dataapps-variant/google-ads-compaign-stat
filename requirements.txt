@@ -1,0 +1,5 @@
+Flask==2.2.2
+gunicorn==20.1.0
+google-ads==21.0.0
+google-cloud-bigquery==3.3.5
+PyYAML==6.0
