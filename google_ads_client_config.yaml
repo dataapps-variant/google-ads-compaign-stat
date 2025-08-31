@@ -1,0 +1,13 @@
+# This file is for configuration only. 
+# We will pass these values as environment variables in Cloud Run for security.
+developer_token: "mx3HedKb0FdTE-m8aPq2hg"
+login_customer_id: "7313976309" # If you use an MCC to access the account
+client_id: "31745463922-b8e9o4luos56porqjup1j1ss5t2h7fru.apps.googleusercontent.com"
+client_secret: "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"
+refresh_token: "1//0gE0zlmnfBFRJCgYIARAAGBASNwF-L9IrvEOZd978FFZtbailKA19DlFPKuOTB2Tvo5Oke2RM-EOyQqF7BWmsgTQFiNfvQ9jFlio"
+# --- Service Account Specific ---
+# Path to your service account key file (for local testing)
+# In Cloud Run, authentication is handled automatically.
+path_to_private_key_file: "path/to/your/key.json" 
+# The email address of the user to impersonate.
+delegated_account: "USER_EMAIL_WITH_ADS_ACCESS" 
